@@ -1,6 +1,6 @@
 # Multi-Stage-APT-Detection-and-Kill-Chain-Stages
 # APT Kill Chain Detection System
-## PSO-Optimized MLP Neural Network
+
 
 ### Project Structure
 ```
@@ -93,3 +93,15 @@ Open browser: **http://127.0.0.1:7860**
 - Labels assigned automatically using domain-knowledge rules based on:
   - `suspicious_ports_count`, `failed_login_attempts`, `blacklist_lookups`
   - `c2_communication_score`, `data_exfiltration_indicators`, `malware_signature_hits`
+ 
+## Technologies Used
+
+- Python
+- Scikit-Learn
+- Pandas
+- NumPy
+- Gradio
+- Particle Swarm Optimization (PSO)
+- Principal Component Analysis (PCA)
+- Machine Learning
+- Cybersecurity
